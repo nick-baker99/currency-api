@@ -1,0 +1,80 @@
+body {
+    font-family: verdana;
+}
+.interface {
+    background-color: #ffffe6;
+    border: 1px solid black;
+    height: 80%;
+    width: 40%;
+    text-align: center;
+}
+
+select {
+    width: 35%;
+    padding: 8px 16px;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.action {
+    font-size: 14px;
+}
+
+.get-labels {
+    font-size: 18px;
+}
+
+h2 {
+    color: red;
+    font-size: 20px;
+}
+
+button {
+    width: 20%;
+    padding: 10px 18px;
+    border-radius: 3px;
+    border: none;
+    background-color: #3385ff;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 6px;
+}
+button:hover {
+    background-color: #5c8dd6;
+}
+
+.xml-label {
+    font-size: 18px;
+}
+
+.xml {
+    margin-top: 10px;
+    height: 56%;
+    width: 90%;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .interface {
+        width: 60%;
+        height: 85%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .interface {
+        width: 80%;
+        height: 90%;
+    }
+}
+@media only screen and (max-height: 650px) {
+    .interface {
+        height: 100%;
+    }
+    .xml {
+        height: 50%;
+        width: 85%;
+    }
+}
